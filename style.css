@@ -1,0 +1,109 @@
+html, body {
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(to top right, black, rgb(35, 0, 0));
+}
+
+* {
+  height: 100%;
+  width: 100%;
+}
+
+.one {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.span-one-one-one {
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.one-two {
+  padding-top: 10px;
+}
+
+.span-one-three-one {
+  padding-left: 230px;
+}
+.fa {
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.fa-twitter {
+  padding: 9px;
+}
+
+.fa-instagram {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.two-one {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.two-one-one-p1 {
+  font-size: 25px;
+}
+
+.two-one-one-p2 {
+  margin-top: 20px;
+  line-height: 1.75;
+  color: rgb(179, 178, 178);
+}
+
+.two-one-two {
+  margin-top: 75px;
+}
+
+.button-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: yellow;
+  border: 3px solid yellow;
+}
+
+.button-1:hover {
+  background: transparent;
+  color: yellow;
+}
+
+.button-2 {
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: transparent;
+  color: white;
+  border: 3px solid white;
+}
+
+.button-2:hover {
+  background-color: white;
+  color: black;
+}
+
+.two-two {
+  margin-right: 250px;
+  width: 400px;
+}
